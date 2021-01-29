@@ -1,1 +1,1 @@
- <?php  $conn=new mysqli("mysql-19382-0.cloudclusters.net","flatros_api_php_user","@Flatros12345","flatros_api_php")or die("connection error"); ?>
+ <?php  $conn=new mysqli(("mysql-19382-0.cloudclusters.net","flatros_api_php_user","@Flatros12345","flatros_api_php")or die("connection error"); ?>
