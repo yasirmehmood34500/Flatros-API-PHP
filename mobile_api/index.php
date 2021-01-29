@@ -1,1 +1,1 @@
-<?php echo "testing" ?>
+<?php echo "WelCome to Flators Mobile API" ?>
