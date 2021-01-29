@@ -1,6 +1,7 @@
 <?php 
 include "../classes/all_function.php";
 include "../classes/db.php";
+// city api
 if (isset($_GET['state_id'])) {
 	$state_id=$_GET['state_id'];
 	$where=" AND state_id='$state_id'";
