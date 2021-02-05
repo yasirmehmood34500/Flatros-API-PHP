@@ -1,5 +1,5 @@
 <?php 
-include "../classes/all_function.php";
+// include "../classes/all_function.php";
 include "../classes/db.php";
 if (isset($_GET['state_id'])) {
 	$state_id=$_GET['state_id'];
@@ -14,4 +14,4 @@ while ($menu=$sql_menu->fetch_assoc()) {
 	$menu_array[]=$menu;
 }
 echo json_encode($menu_array);
- ?>
+?>
